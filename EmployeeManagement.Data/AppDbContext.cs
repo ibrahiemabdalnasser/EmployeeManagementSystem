@@ -24,7 +24,7 @@ namespace EmployeeManagement.Data
             modelBuilder.Entity<EmployeeProject>()
                 .HasKey(ep => new { ep.EmployeeID, ep.ProjectID });
 
-            /
+            
             modelBuilder.Entity<EmployeeProject>()
                 .HasOne(ep => ep.Employee)
                 .WithMany(e => e.EmployeeProjects)

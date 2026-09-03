@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeManagement.Api\EmployeeManagement.Api.csproj" />
     <ProjectReference Include="..\EmployeeManagement.Data\EmployeeManagement.Data.csproj" />
   </ItemGroup>
 
